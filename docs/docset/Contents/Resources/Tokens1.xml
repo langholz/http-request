@@ -1,0 +1,1056 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/http_request.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/http_request</TokenIdentifier>
+			<Abstract type="html">http_request is an iOS light-weight library that simplifies asynchronous HTTP operations.</Abstract>
+			<DeclaredIn>http_request.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/http_request/setBodyParser:</TokenIdentifier>
+			<Abstract type="html">The body parser block property.</Abstract>
+			<DeclaredIn>http_request.h</DeclaredIn>
+			
+			<Declaration>@property (copy) id ( ^ ) ( NSURLResponse *, NSData *, NSError *__autoreleasing *) bodyParser</Declaration>
+			
+			
+			<Anchor>//api/name/bodyParser</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/http_request/bodyParser</TokenIdentifier>
+			<Abstract type="html">The body parser block property.</Abstract>
+			<DeclaredIn>http_request.h</DeclaredIn>
+			
+			<Declaration>@property (copy) id ( ^ ) ( NSURLResponse *, NSData *, NSError *__autoreleasing *) bodyParser</Declaration>
+			
+			
+			<Anchor>//api/name/bodyParser</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/http_request/bodyParser</TokenIdentifier>
+			<Abstract type="html">The body parser block property.</Abstract>
+			<DeclaredIn>http_request.h</DeclaredIn>
+			
+			<Declaration>@property (copy) id ( ^ ) ( NSURLResponse *, NSData *, NSError *__autoreleasing *) bodyParser</Declaration>
+			
+			
+			<Anchor>//api/name/bodyParser</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/http_request/setBodySerializer:</TokenIdentifier>
+			<Abstract type="html">The body serializer block property.</Abstract>
+			<DeclaredIn>http_request.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSData *^ ) ( id , NSError *__autoreleasing *) bodySerializer</Declaration>
+			
+			
+			<Anchor>//api/name/bodySerializer</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/http_request/bodySerializer</TokenIdentifier>
+			<Abstract type="html">The body serializer block property.</Abstract>
+			<DeclaredIn>http_request.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSData *^ ) ( id , NSError *__autoreleasing *) bodySerializer</Declaration>
+			
+			
+			<Anchor>//api/name/bodySerializer</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/http_request/bodySerializer</TokenIdentifier>
+			<Abstract type="html">The body serializer block property.</Abstract>
+			<DeclaredIn>http_request.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSData *^ ) ( id , NSError *__autoreleasing *) bodySerializer</Declaration>
+			
+			
+			<Anchor>//api/name/bodySerializer</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/http_request/setResponseValidator:</TokenIdentifier>
+			<Abstract type="html">The response validator block property.</Abstract>
+			<DeclaredIn>http_request.h</DeclaredIn>
+			
+			<Declaration>@property (copy) BOOL ( ^ ) ( NSURLResponse *, id body , NSError *__autoreleasing *) responseValidator</Declaration>
+			
+			
+			<Anchor>//api/name/responseValidator</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/http_request/responseValidator</TokenIdentifier>
+			<Abstract type="html">The response validator block property.</Abstract>
+			<DeclaredIn>http_request.h</DeclaredIn>
+			
+			<Declaration>@property (copy) BOOL ( ^ ) ( NSURLResponse *, id body , NSError *__autoreleasing *) responseValidator</Declaration>
+			
+			
+			<Anchor>//api/name/responseValidator</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/http_request/responseValidator</TokenIdentifier>
+			<Abstract type="html">The response validator block property.</Abstract>
+			<DeclaredIn>http_request.h</DeclaredIn>
+			
+			<Declaration>@property (copy) BOOL ( ^ ) ( NSURLResponse *, id body , NSError *__autoreleasing *) responseValidator</Declaration>
+			
+			
+			<Anchor>//api/name/responseValidator</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/http_request/isInformationalStatusCode:</TokenIdentifier>
+			<Abstract type="html">Determines whether or not the status code is informational.</Abstract>
+			<DeclaredIn>http_request.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)isInformationalStatusCode:(int)statusCode</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>statusCode</Name>
+					<Abstract type="html">The HTTP status code.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if it is informational; otherwise, NO.</Abstract></ReturnValue>
+			<Anchor>//api/name/isInformationalStatusCode:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/http_request/isSuccessStatusCode:</TokenIdentifier>
+			<Abstract type="html">Determines whether or not the status code is successful.</Abstract>
+			<DeclaredIn>http_request.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)isSuccessStatusCode:(int)statusCode</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>statusCode</Name>
+					<Abstract type="html">The HTTP status code.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if it is successful; otherwise, NO.</Abstract></ReturnValue>
+			<Anchor>//api/name/isSuccessStatusCode:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/http_request/isRedirectionStatusCode:</TokenIdentifier>
+			<Abstract type="html">Determines whether or not the status code is redirection.</Abstract>
+			<DeclaredIn>http_request.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)isRedirectionStatusCode:(int)statusCode</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>statusCode</Name>
+					<Abstract type="html">The HTTP status code.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if it is redirection; otherwise, NO.</Abstract></ReturnValue>
+			<Anchor>//api/name/isRedirectionStatusCode:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/http_request/isClientErrorStatusCode:</TokenIdentifier>
+			<Abstract type="html">Determines whether or not the status code is a client error.</Abstract>
+			<DeclaredIn>http_request.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)isClientErrorStatusCode:(int)statusCode</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>statusCode</Name>
+					<Abstract type="html">The HTTP status code.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if it is a client error; otherwise, NO.</Abstract></ReturnValue>
+			<Anchor>//api/name/isClientErrorStatusCode:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/http_request/isServerErrorStatusCode:</TokenIdentifier>
+			<Abstract type="html">Determines whether or not the status code is a server error.</Abstract>
+			<DeclaredIn>http_request.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)isServerErrorStatusCode:(int)statusCode</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>statusCode</Name>
+					<Abstract type="html">The HTTP status code.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if it is a server error; otherwise, NO.</Abstract></ReturnValue>
+			<Anchor>//api/name/isServerErrorStatusCode:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/http_request/constructRequest:withUrl:withHeaders:withBody:</TokenIdentifier>
+			<Abstract type="html">Constructs an HTTP request given the provided parameters.</Abstract>
+			<DeclaredIn>http_request.h</DeclaredIn>
+			
+			<Declaration>+ (NSMutableURLRequest *)constructRequest:(NSString *)method withUrl:(NSURL *)url withHeaders:(NSDictionary *)headers withBody:(NSData *)data</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>method</Name>
+					<Abstract type="html">The HTTP method (e.g. @&quot;GET&quot;, @&quot;PUT&quot;, @&quot;POST, @&quot;PATCH&quot;, @&quot;DELETE&quot;, ...). Must not be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>url</Name>
+					<Abstract type="html">The uniform resource locator to retrieve the content from. Must not be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>headers</Name>
+					<Abstract type="html">The HTTP headers to provide as part of the request. Optional, can be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>data</Name>
+					<Abstract type="html">The data to use in the body of the request. Optional, can be nil.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The constructed HTTP request.</Abstract></ReturnValue>
+			<Anchor>//api/name/constructRequest:withUrl:withHeaders:withBody:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/http_request/isValidResponse:withBody:error:</TokenIdentifier>
+			<Abstract type="html">Validates the HTTP response of a request.</Abstract>
+			<DeclaredIn>http_request.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)isValidResponse:(NSURLResponse *)response withBody:(id)body error:(NSError *__autoreleasing *)error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>response</Name>
+					<Abstract type="html">The response to validate. Must not be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>body</Name>
+					<Abstract type="html">The response body. Optional, can be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>error</Name>
+					<Abstract type="html">The error, if any. Must not be nil.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Determines whether there was a reponse error or not.</Abstract></ReturnValue>
+			<Anchor>//api/name/isValidResponse:withBody:error:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/http_request/parseBody:withBody:error:</TokenIdentifier>
+			<Abstract type="html">Parses the data given a response.</Abstract>
+			<DeclaredIn>http_request.h</DeclaredIn>
+			
+			<Declaration>+ (id)parseBody:(NSURLResponse *)response withBody:(NSData *)data error:(NSError *__autoreleasing *)error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>response</Name>
+					<Abstract type="html">The response. Must not be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>data</Name>
+					<Abstract type="html">The data to parse as the body. Optional, can be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>error</Name>
+					<Abstract type="html">The error, if any. Must not be nil.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The parsed body in its corresponding representation.</Abstract></ReturnValue>
+			<Anchor>//api/name/parseBody:withBody:error:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/http_request/serializeBody:error:</TokenIdentifier>
+			<Abstract type="html">Serializes the body for a request.</Abstract>
+			<DeclaredIn>http_request.h</DeclaredIn>
+			
+			<Declaration>+ (NSData *)serializeBody:(id)body error:(NSError *__autoreleasing *)error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>body</Name>
+					<Abstract type="html">The data to serialize as the body. Optional, can be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>error</Name>
+					<Abstract type="html">The error, if any. Must not be nil.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The serialized body in its corresponding representation.</Abstract></ReturnValue>
+			<Anchor>//api/name/serializeBody:error:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/http_request/jsonDataParser:error:</TokenIdentifier>
+			<Abstract type="html">Converts the provided NSData into its JSON representation.</Abstract>
+			<DeclaredIn>http_request.h</DeclaredIn>
+			
+			<Declaration>+ (id)jsonDataParser:(NSData *)data error:(NSError *__autoreleasing *)error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>data</Name>
+					<Abstract type="html">The data to parse. Optional, can be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>error</Name>
+					<Abstract type="html">The error, if any. Must not be nil.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The NSDictionary representing the parsed data.</Abstract></ReturnValue>
+			<Anchor>//api/name/jsonDataParser:error:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/http_request/stringDataParser:error:</TokenIdentifier>
+			<Abstract type="html">Converts the provided NSData into its String representation.</Abstract>
+			<DeclaredIn>http_request.h</DeclaredIn>
+			
+			<Declaration>+ (id)stringDataParser:(NSData *)data error:(NSError *__autoreleasing *)error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>data</Name>
+					<Abstract type="html">The data to parse. Optional, can be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>error</Name>
+					<Abstract type="html">The error, if any. Must not be nil.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The NSString representing the parsed data.</Abstract></ReturnValue>
+			<Anchor>//api/name/stringDataParser:error:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/http_request/serializeString:error:</TokenIdentifier>
+			<Abstract type="html">Converts the provided String into its NSData representation.</Abstract>
+			<DeclaredIn>http_request.h</DeclaredIn>
+			
+			<Declaration>+ (NSData *)serializeString:(NSString *)str error:(NSError *__autoreleasing *)error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>str</Name>
+					<Abstract type="html">The String to serialize. Optional, can be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>error</Name>
+					<Abstract type="html">The error, if any. Must not be nil.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The NSData representing the serialized String.</Abstract></ReturnValue>
+			<Anchor>//api/name/serializeString:error:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/http_request/serializeJson:error:</TokenIdentifier>
+			<Abstract type="html">Converts the provided JSON into its NSData representation.</Abstract>
+			<DeclaredIn>http_request.h</DeclaredIn>
+			
+			<Declaration>+ (NSData *)serializeJson:(NSDictionary *)dict error:(NSError *__autoreleasing *)error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dict</Name>
+					<Abstract type="html">The JSON to serialize. Optional, can be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>error</Name>
+					<Abstract type="html">The error, if any. Must not be nil.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The NSData representing the serialized JSON.</Abstract></ReturnValue>
+			<Anchor>//api/name/serializeJson:error:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/http_request/init</TokenIdentifier>
+			<Abstract type="html">The default instance initializer.</Abstract>
+			<DeclaredIn>http_request.h</DeclaredIn>
+			
+			<Declaration>- (id)init</Declaration>
+			
+			<ReturnValue><Abstract type="html">An instance of class.</Abstract></ReturnValue>
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/http_request/initWithConfiguration:</TokenIdentifier>
+			<Abstract type="html">Initializes the instance with a provided configuration.</Abstract>
+			<DeclaredIn>http_request.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithConfiguration:(NSURLSessionConfiguration *)sessionConfiguration</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sessionConfiguration</Name>
+					<Abstract type="html">The session configuration used to initialize the instance.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of class.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithConfiguration:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/http_request/getAsync:onSuccess:onError:</TokenIdentifier>
+			<Abstract type="html">Get the content for the provided url.</Abstract>
+			<DeclaredIn>http_request.h</DeclaredIn>
+			
+			<Declaration>- (NSURLSessionDataTask *)getAsync:(NSURL *)url onSuccess:(void ( ^ ) ( NSURLResponse *, id ))success onError:(void ( ^ ) ( NSError *))error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>url</Name>
+					<Abstract type="html">The uniform resource locator to retrieve the content from. Must not be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>success</Name>
+					<Abstract type="html">The callback called upon success; passes the response and the body. Must not be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>error</Name>
+					<Abstract type="html">The callback called upon error; passes an NSError. Must not be nil.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The task representing the operation.</Abstract></ReturnValue>
+			<Anchor>//api/name/getAsync:onSuccess:onError:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/http_request/getAsync:withHeaders:onSuccess:onError:</TokenIdentifier>
+			<Abstract type="html">Get the content for the provided url.</Abstract>
+			<DeclaredIn>http_request.h</DeclaredIn>
+			
+			<Declaration>- (NSURLSessionDataTask *)getAsync:(NSURL *)url withHeaders:(NSDictionary *)headers onSuccess:(void ( ^ ) ( NSURLResponse *, id ))success onError:(void ( ^ ) ( NSError *))error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>url</Name>
+					<Abstract type="html">The uniform resource locator to retrieve the content from. Must not be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>headers</Name>
+					<Abstract type="html">The HTTP headers to provide as part of the request. Optional, can be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>success</Name>
+					<Abstract type="html">The callback called upon success; passes the response and the body. Must not be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>error</Name>
+					<Abstract type="html">The callback called upon error; passes an NSError. Must not be nil.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The task representing the operation.</Abstract></ReturnValue>
+			<Anchor>//api/name/getAsync:withHeaders:onSuccess:onError:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/http_request/putAsync:withBody:onSuccess:onError:</TokenIdentifier>
+			<Abstract type="html">Put the content for the provided url.</Abstract>
+			<DeclaredIn>http_request.h</DeclaredIn>
+			
+			<Declaration>- (NSURLSessionDataTask *)putAsync:(NSURL *)url withBody:(NSData *)data onSuccess:(void ( ^ ) ( NSURLResponse *, id ))success onError:(void ( ^ ) ( NSError *))error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>url</Name>
+					<Abstract type="html">The uniform resource locator to update the content with. Must not be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>data</Name>
+					<Abstract type="html">The NSData to be used as the body of the request and with which to put the url with. Optional, can be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>success</Name>
+					<Abstract type="html">The callback called upon success; passes the response and the body. Must not be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>error</Name>
+					<Abstract type="html">The callback called upon error; passes an NSError. Must not be nil.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The task representing the operation.</Abstract></ReturnValue>
+			<Anchor>//api/name/putAsync:withBody:onSuccess:onError:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/http_request/putAsync:withString:onSuccess:onError:</TokenIdentifier>
+			<Abstract type="html">Put the content for the provided url.</Abstract>
+			<DeclaredIn>http_request.h</DeclaredIn>
+			
+			<Declaration>- (NSURLSessionDataTask *)putAsync:(NSURL *)url withString:(NSString *)str onSuccess:(void ( ^ ) ( NSURLResponse *, id ))success onError:(void ( ^ ) ( NSError *))error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>url</Name>
+					<Abstract type="html">The uniform resource locator to update the content with. Must not be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>str</Name>
+					<Abstract type="html">The NSString to be used as the body of the request and with which to put the url with. Optional, can be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>success</Name>
+					<Abstract type="html">The callback called upon success; passes the response and the body. Must not be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>error</Name>
+					<Abstract type="html">The callback called upon error; passes an NSError. Must not be nil.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The task representing the operation.</Abstract></ReturnValue>
+			<Anchor>//api/name/putAsync:withString:onSuccess:onError:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/http_request/putAsync:withJson:onSuccess:onError:</TokenIdentifier>
+			<Abstract type="html">Put the content for the provided url.</Abstract>
+			<DeclaredIn>http_request.h</DeclaredIn>
+			
+			<Declaration>- (NSURLSessionDataTask *)putAsync:(NSURL *)url withJson:(NSDictionary *)dict onSuccess:(void ( ^ ) ( NSURLResponse *, id ))success onError:(void ( ^ ) ( NSError *))error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>url</Name>
+					<Abstract type="html">The uniform resource locator to update the content with. Must not be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>dict</Name>
+					<Abstract type="html">The NSDictionary to be used as the body of the request and with which to put the url with. Optional, can be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>success</Name>
+					<Abstract type="html">The callback called upon success; passes the response and the body. Must not be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>error</Name>
+					<Abstract type="html">The callback called upon error; passes an NSError. Must not be nil.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The task representing the operation.</Abstract></ReturnValue>
+			<Anchor>//api/name/putAsync:withJson:onSuccess:onError:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/http_request/putAsync:withHeaders:withBody:onSuccess:onError:</TokenIdentifier>
+			<Abstract type="html">Put the content for the provided url.</Abstract>
+			<DeclaredIn>http_request.h</DeclaredIn>
+			
+			<Declaration>- (NSURLSessionDataTask *)putAsync:(NSURL *)url withHeaders:(NSDictionary *)headers withBody:(NSData *)data onSuccess:(void ( ^ ) ( NSURLResponse *, id ))success onError:(void ( ^ ) ( NSError *))error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>url</Name>
+					<Abstract type="html">The uniform resource locator to update the content with. Must not be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>headers</Name>
+					<Abstract type="html">The NSDitionary representing the headers to set for the request. Optional, can be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>data</Name>
+					<Abstract type="html">The NSData to be used as the body of the request and with which to put the url with. Optional, can be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>success</Name>
+					<Abstract type="html">The callback called upon success; passes the response and the body. Must not be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>error</Name>
+					<Abstract type="html">The callback called upon error; passes an NSError. Must not be nil.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The task representing the operation.</Abstract></ReturnValue>
+			<Anchor>//api/name/putAsync:withHeaders:withBody:onSuccess:onError:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/http_request/putAsync:withHeaders:withString:onSuccess:onError:</TokenIdentifier>
+			<Abstract type="html">Put the content for the provided url.</Abstract>
+			<DeclaredIn>http_request.h</DeclaredIn>
+			
+			<Declaration>- (NSURLSessionDataTask *)putAsync:(NSURL *)url withHeaders:(NSDictionary *)headers withString:(NSString *)str onSuccess:(void ( ^ ) ( NSURLResponse *, id ))success onError:(void ( ^ ) ( NSError *))error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>url</Name>
+					<Abstract type="html">The uniform resource locator to update the content with. Must not be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>headers</Name>
+					<Abstract type="html">The NSDitionary representing the headers to set for the request. Optional, can be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>str</Name>
+					<Abstract type="html">The NSString to be used as the body of the request and with which to put the url with. Optional, can be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>success</Name>
+					<Abstract type="html">The callback called upon success; passes the response and the body. Must not be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>error</Name>
+					<Abstract type="html">The callback called upon error; passes an NSError. Must not be nil.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The task representing the operation.</Abstract></ReturnValue>
+			<Anchor>//api/name/putAsync:withHeaders:withString:onSuccess:onError:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/http_request/putAsync:withHeaders:withJson:onSuccess:onError:</TokenIdentifier>
+			<Abstract type="html">Put the content for the provided url.</Abstract>
+			<DeclaredIn>http_request.h</DeclaredIn>
+			
+			<Declaration>- (NSURLSessionDataTask *)putAsync:(NSURL *)url withHeaders:(NSDictionary *)headers withJson:(NSDictionary *)dict onSuccess:(void ( ^ ) ( NSURLResponse *, id ))success onError:(void ( ^ ) ( NSError *))error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>url</Name>
+					<Abstract type="html">The uniform resource locator to update the content with. Must not be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>headers</Name>
+					<Abstract type="html">The NSDitionary representing the headers to set for the request. Optional, can be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>dict</Name>
+					<Abstract type="html">The NSDictionary to be used as the body of the request and with which to put the url with. Optional, can be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>success</Name>
+					<Abstract type="html">The callback called upon success; passes the response and the body. Must not be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>error</Name>
+					<Abstract type="html">The callback called upon error; passes an NSError. Must not be nil.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The task representing the operation.</Abstract></ReturnValue>
+			<Anchor>//api/name/putAsync:withHeaders:withJson:onSuccess:onError:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/http_request/postAsync:withBody:onSuccess:onError:</TokenIdentifier>
+			<Abstract type="html">Post the content for the provided url.</Abstract>
+			<DeclaredIn>http_request.h</DeclaredIn>
+			
+			<Declaration>- (NSURLSessionDataTask *)postAsync:(NSURL *)url withBody:(NSData *)data onSuccess:(void ( ^ ) ( NSURLResponse *, id ))success onError:(void ( ^ ) ( NSError *))error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>url</Name>
+					<Abstract type="html">The uniform resource locator to update the content with. Must not be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>data</Name>
+					<Abstract type="html">The NSData to be used as the body of the request and with which to post the url with. Optional, can be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>success</Name>
+					<Abstract type="html">The callback called upon success; passes the response and the body. Must not be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>error</Name>
+					<Abstract type="html">The callback called upon error; passes an NSError. Must not be nil.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The task representing the operation.</Abstract></ReturnValue>
+			<Anchor>//api/name/postAsync:withBody:onSuccess:onError:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/http_request/postAsync:withString:onSuccess:onError:</TokenIdentifier>
+			<Abstract type="html">Post the content for the provided url.</Abstract>
+			<DeclaredIn>http_request.h</DeclaredIn>
+			
+			<Declaration>- (NSURLSessionDataTask *)postAsync:(NSURL *)url withString:(NSString *)str onSuccess:(void ( ^ ) ( NSURLResponse *, id ))success onError:(void ( ^ ) ( NSError *))error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>url</Name>
+					<Abstract type="html">The uniform resource locator to update the content with. Must not be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>str</Name>
+					<Abstract type="html">The NSString to be used as the body of the request and with which to post the url with. Optional, can be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>success</Name>
+					<Abstract type="html">The callback called upon success; passes the response and the body. Must not be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>error</Name>
+					<Abstract type="html">The callback called upon error; passes an NSError. Must not be nil.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The task representing the operation.</Abstract></ReturnValue>
+			<Anchor>//api/name/postAsync:withString:onSuccess:onError:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/http_request/postAsync:withJson:onSuccess:onError:</TokenIdentifier>
+			<Abstract type="html">Post the content for the provided url.</Abstract>
+			<DeclaredIn>http_request.h</DeclaredIn>
+			
+			<Declaration>- (NSURLSessionDataTask *)postAsync:(NSURL *)url withJson:(NSDictionary *)dict onSuccess:(void ( ^ ) ( NSURLResponse *, id ))success onError:(void ( ^ ) ( NSError *))error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>url</Name>
+					<Abstract type="html">The uniform resource locator to update the content with. Must not be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>dict</Name>
+					<Abstract type="html">The NSDictionary to be used as the body of the request and with which to post the url with. Optional, can be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>success</Name>
+					<Abstract type="html">The callback called upon success; passes the response and the body. Must not be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>error</Name>
+					<Abstract type="html">The callback called upon error; passes an NSError. Must not be nil.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The task representing the operation.</Abstract></ReturnValue>
+			<Anchor>//api/name/postAsync:withJson:onSuccess:onError:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/http_request/postAsync:withHeaders:withBody:onSuccess:onError:</TokenIdentifier>
+			<Abstract type="html">Post the content for the provided url.</Abstract>
+			<DeclaredIn>http_request.h</DeclaredIn>
+			
+			<Declaration>- (NSURLSessionDataTask *)postAsync:(NSURL *)url withHeaders:(NSDictionary *)headers withBody:(NSData *)data onSuccess:(void ( ^ ) ( NSURLResponse *, id ))success onError:(void ( ^ ) ( NSError *))error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>url</Name>
+					<Abstract type="html">The uniform resource locator to update the content with. Must not be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>headers</Name>
+					<Abstract type="html">The NSDitionary representing the headers to set for the request. Optional, can be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>data</Name>
+					<Abstract type="html">The NSData to be used as the body of the request and with which to post the url with. Optional, can be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>success</Name>
+					<Abstract type="html">The callback called upon success; passes the response and the body. Must not be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>error</Name>
+					<Abstract type="html">The callback called upon error; passes an NSError. Must not be nil.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The task representing the operation.</Abstract></ReturnValue>
+			<Anchor>//api/name/postAsync:withHeaders:withBody:onSuccess:onError:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/http_request/postAsync:withHeaders:withString:onSuccess:onError:</TokenIdentifier>
+			<Abstract type="html">Post the content for the provided url.</Abstract>
+			<DeclaredIn>http_request.h</DeclaredIn>
+			
+			<Declaration>- (NSURLSessionDataTask *)postAsync:(NSURL *)url withHeaders:(NSDictionary *)headers withString:(NSString *)str onSuccess:(void ( ^ ) ( NSURLResponse *, id ))success onError:(void ( ^ ) ( NSError *))error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>url</Name>
+					<Abstract type="html">The uniform resource locator to update the content with. Must not be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>headers</Name>
+					<Abstract type="html">The NSDitionary representing the headers to set for the request. Optional, can be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>str</Name>
+					<Abstract type="html">The NSString to be used as the body of the request and with which to post the url with. Optional, can be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>success</Name>
+					<Abstract type="html">The callback called upon success; passes the response and the body. Must not be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>error</Name>
+					<Abstract type="html">The callback called upon error; passes an NSError. Must not be nil.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The task representing the operation.</Abstract></ReturnValue>
+			<Anchor>//api/name/postAsync:withHeaders:withString:onSuccess:onError:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/http_request/postAsync:withHeaders:withJson:onSuccess:onError:</TokenIdentifier>
+			<Abstract type="html">Post the content for the provided url.</Abstract>
+			<DeclaredIn>http_request.h</DeclaredIn>
+			
+			<Declaration>- (NSURLSessionDataTask *)postAsync:(NSURL *)url withHeaders:(NSDictionary *)headers withJson:(NSDictionary *)dict onSuccess:(void ( ^ ) ( NSURLResponse *, id ))success onError:(void ( ^ ) ( NSError *))error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>url</Name>
+					<Abstract type="html">The uniform resource locator to update the content with. Must not be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>headers</Name>
+					<Abstract type="html">The NSDitionary representing the headers to set for the request. Optional, can be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>dict</Name>
+					<Abstract type="html">The NSDictionary to be used as the body of the request and with which to post the url with. Optional, can be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>success</Name>
+					<Abstract type="html">The callback called upon success; passes the response and the body. Must not be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>error</Name>
+					<Abstract type="html">The callback called upon error; passes an NSError. Must not be nil.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The task representing the operation.</Abstract></ReturnValue>
+			<Anchor>//api/name/postAsync:withHeaders:withJson:onSuccess:onError:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/http_request/patchAsync:withBody:onSuccess:onError:</TokenIdentifier>
+			<Abstract type="html">Patch the content for the provided url.</Abstract>
+			<DeclaredIn>http_request.h</DeclaredIn>
+			
+			<Declaration>- (NSURLSessionDataTask *)patchAsync:(NSURL *)url withBody:(NSData *)data onSuccess:(void ( ^ ) ( NSURLResponse *, id ))success onError:(void ( ^ ) ( NSError *))error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>url</Name>
+					<Abstract type="html">The uniform resource locator to update the content with. Must not be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>data</Name>
+					<Abstract type="html">The NSData to be used as the body of the request and with which to patch the url with. Optional, can be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>success</Name>
+					<Abstract type="html">The callback called upon success; passes the response and the body. Must not be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>error</Name>
+					<Abstract type="html">The callback called upon error; passes an NSError. Must not be nil.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The task representing the operation.</Abstract></ReturnValue>
+			<Anchor>//api/name/patchAsync:withBody:onSuccess:onError:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/http_request/patchAsync:withString:onSuccess:onError:</TokenIdentifier>
+			<Abstract type="html">Patch the content for the provided url.</Abstract>
+			<DeclaredIn>http_request.h</DeclaredIn>
+			
+			<Declaration>- (NSURLSessionDataTask *)patchAsync:(NSURL *)url withString:(NSString *)str onSuccess:(void ( ^ ) ( NSURLResponse *, id ))success onError:(void ( ^ ) ( NSError *))error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>url</Name>
+					<Abstract type="html">The uniform resource locator to update the content with. Must not be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>str</Name>
+					<Abstract type="html">The NSString to be used as the body of the request and with which to patch the url with. Optional, can be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>success</Name>
+					<Abstract type="html">The callback called upon success; passes the response and the body. Must not be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>error</Name>
+					<Abstract type="html">The callback called upon error; passes an NSError. Must not be nil.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The task representing the operation.</Abstract></ReturnValue>
+			<Anchor>//api/name/patchAsync:withString:onSuccess:onError:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/http_request/patchAsync:withJson:onSuccess:onError:</TokenIdentifier>
+			<Abstract type="html">Patch the content for the provided url.</Abstract>
+			<DeclaredIn>http_request.h</DeclaredIn>
+			
+			<Declaration>- (NSURLSessionDataTask *)patchAsync:(NSURL *)url withJson:(NSDictionary *)dict onSuccess:(void ( ^ ) ( NSURLResponse *, id ))success onError:(void ( ^ ) ( NSError *))error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>url</Name>
+					<Abstract type="html">The uniform resource locator to update the content with. Must not be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>dict</Name>
+					<Abstract type="html">The NSDictionary to be used as the body of the request and with which to patch the url with. Optional, can be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>success</Name>
+					<Abstract type="html">The callback called upon success; passes the response and the body. Must not be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>error</Name>
+					<Abstract type="html">The callback called upon error; passes an NSError. Must not be nil.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The task representing the operation.</Abstract></ReturnValue>
+			<Anchor>//api/name/patchAsync:withJson:onSuccess:onError:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/http_request/patchAsync:withHeaders:withBody:onSuccess:onError:</TokenIdentifier>
+			<Abstract type="html">Patch the content for the provided url.</Abstract>
+			<DeclaredIn>http_request.h</DeclaredIn>
+			
+			<Declaration>- (NSURLSessionDataTask *)patchAsync:(NSURL *)url withHeaders:(NSDictionary *)headers withBody:(NSData *)data onSuccess:(void ( ^ ) ( NSURLResponse *, id ))success onError:(void ( ^ ) ( NSError *))error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>url</Name>
+					<Abstract type="html">The uniform resource locator to update the content with. Must not be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>headers</Name>
+					<Abstract type="html">The NSDitionary representing the headers to set for the request. Optional, can be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>data</Name>
+					<Abstract type="html">The NSData to be used as the body of the request and with which to patch the url with. Optional, can be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>success</Name>
+					<Abstract type="html">The callback called upon success; passes the response and the body. Must not be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>error</Name>
+					<Abstract type="html">The callback called upon error; passes an NSError. Must not be nil.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The task representing the operation.</Abstract></ReturnValue>
+			<Anchor>//api/name/patchAsync:withHeaders:withBody:onSuccess:onError:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/http_request/patchAsync:withHeaders:withString:onSuccess:onError:</TokenIdentifier>
+			<Abstract type="html">Patch the content for the provided url.</Abstract>
+			<DeclaredIn>http_request.h</DeclaredIn>
+			
+			<Declaration>- (NSURLSessionDataTask *)patchAsync:(NSURL *)url withHeaders:(NSDictionary *)headers withString:(NSString *)str onSuccess:(void ( ^ ) ( NSURLResponse *, id ))success onError:(void ( ^ ) ( NSError *))error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>url</Name>
+					<Abstract type="html">The uniform resource locator to update the content with. Must not be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>headers</Name>
+					<Abstract type="html">The NSDitionary representing the headers to set for the request. Optional, can be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>str</Name>
+					<Abstract type="html">The NSString to be used as the body of the request and with which to patch the url with. Optional, can be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>success</Name>
+					<Abstract type="html">The callback called upon success; passes the response and the body. Must not be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>error</Name>
+					<Abstract type="html">The callback called upon error; passes an NSError. Must not be nil.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The task representing the operation.</Abstract></ReturnValue>
+			<Anchor>//api/name/patchAsync:withHeaders:withString:onSuccess:onError:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/http_request/patchAsync:withHeaders:withJson:onSuccess:onError:</TokenIdentifier>
+			<Abstract type="html">Patch the content for the provided url.</Abstract>
+			<DeclaredIn>http_request.h</DeclaredIn>
+			
+			<Declaration>- (NSURLSessionDataTask *)patchAsync:(NSURL *)url withHeaders:(NSDictionary *)headers withJson:(NSDictionary *)dict onSuccess:(void ( ^ ) ( NSURLResponse *, id ))success onError:(void ( ^ ) ( NSError *))error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>url</Name>
+					<Abstract type="html">The uniform resource locator to update the content with. Must not be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>headers</Name>
+					<Abstract type="html">The NSDitionary representing the headers to set for the request. Optional, can be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>dict</Name>
+					<Abstract type="html">The NSDictionary to be used as the body of the request and with which to patch the url with. Optional, can be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>success</Name>
+					<Abstract type="html">The callback called upon success; passes the response and the body. Must not be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>error</Name>
+					<Abstract type="html">The callback called upon error; passes an NSError. Must not be nil.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The task representing the operation.</Abstract></ReturnValue>
+			<Anchor>//api/name/patchAsync:withHeaders:withJson:onSuccess:onError:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/http_request/deleteAsync:onSuccess:onError:</TokenIdentifier>
+			<Abstract type="html">Removes the content for the provided url.</Abstract>
+			<DeclaredIn>http_request.h</DeclaredIn>
+			
+			<Declaration>- (NSURLSessionDataTask *)deleteAsync:(NSURL *)url onSuccess:(void ( ^ ) ( NSURLResponse *, id ))success onError:(void ( ^ ) ( NSError *))error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>url</Name>
+					<Abstract type="html">The uniform resource locator to retrieve the content from. Must not be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>success</Name>
+					<Abstract type="html">The callback called upon success; passes the response and the body. Must not be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>error</Name>
+					<Abstract type="html">The callback called upon error; passes an NSError. Must not be nil.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The task representing the operation.</Abstract></ReturnValue>
+			<Anchor>//api/name/deleteAsync:onSuccess:onError:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/http_request/deleteAsync:withHeaders:onSuccess:onError:</TokenIdentifier>
+			<Abstract type="html">Removes the content for the provided url.</Abstract>
+			<DeclaredIn>http_request.h</DeclaredIn>
+			
+			<Declaration>- (NSURLSessionDataTask *)deleteAsync:(NSURL *)url withHeaders:(NSDictionary *)headers onSuccess:(void ( ^ ) ( NSURLResponse *, id ))success onError:(void ( ^ ) ( NSError *))error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>url</Name>
+					<Abstract type="html">The uniform resource locator to retrieve the content from. Must not be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>headers</Name>
+					<Abstract type="html">The HTTP headers to provide as part of the request. Optional, can be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>success</Name>
+					<Abstract type="html">The callback called upon success; passes the response and the body. Must not be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>error</Name>
+					<Abstract type="html">The callback called upon error; passes an NSError. Must not be nil.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The task representing the operation.</Abstract></ReturnValue>
+			<Anchor>//api/name/deleteAsync:withHeaders:onSuccess:onError:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/http_request/issueAsync:onSuccess:onError:</TokenIdentifier>
+			<Abstract type="html">Issues an HTTP request, parses the response body and validates the status code.</Abstract>
+			<DeclaredIn>http_request.h</DeclaredIn>
+			
+			<Declaration>- (NSURLSessionDataTask *)issueAsync:(NSMutableURLRequest *)request onSuccess:(void ( ^ ) ( NSURLResponse *, id ))success onError:(void ( ^ ) ( NSError *))error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">The HTTP request to issue. Must not be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>success</Name>
+					<Abstract type="html">The callback called upon success; passes the response and the body. Must not be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>error</Name>
+					<Abstract type="html">The callback called upon error; passes an NSError. Must not be nil.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The task representing the operation.</Abstract></ReturnValue>
+			<Anchor>//api/name/issueAsync:onSuccess:onError:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/http_request/issueAsync:withBodyParser:withResponseValidation:onSuccess:onError:</TokenIdentifier>
+			<Abstract type="html">Issues an HTTP request, parses the response body and validates the status code.</Abstract>
+			<DeclaredIn>http_request.h</DeclaredIn>
+			
+			<Declaration>- (NSURLSessionDataTask *)issueAsync:(NSMutableURLRequest *)request withBodyParser:(id ( ^ ) ( NSURLResponse *, NSData *, NSError *__autoreleasing *))bodyParser withResponseValidation:(BOOL ( ^ ) ( NSURLResponse *, id , NSError *__autoreleasing *))validateResponse onSuccess:(void ( ^ ) ( NSURLResponse *, id ))successCallback onError:(void ( ^ ) ( NSError *))errorCallback</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">The HTTP request to issue. Must not be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>bodyParser</Name>
+					<Abstract type="html">The parser used to convert the body. Optional, can be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>validateResponse</Name>
+					<Abstract type="html">The validator used to check the response. Optional, can be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>successCallback</Name>
+					<Abstract type="html">The callback called upon success; passes the response and the body. Must not be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>errorCallback</Name>
+					<Abstract type="html">The callback called upon error; passes an NSError. Must not be nil.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The task representing the operation.</Abstract></ReturnValue>
+			<Anchor>//api/name/issueAsync:withBodyParser:withResponseValidation:onSuccess:onError:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

@@ -1,0 +1,4 @@
+Documentation set was installed to Xcode!
+
+Path: /Users/langholz/Library/Developer/Shared/Documentation/DocSets/net.langholz.http-request.docset
+Time: 2014-06-09 03:24:27 +0000

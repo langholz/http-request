@@ -1,0 +1,3247 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>http_request Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">http-request </a></h1>
+				<a id="developerHome" href="../index.html">langholz.net</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">http_request Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/bodyParser">&nbsp;&nbsp;&nbsp;&nbsp;bodyParser</option>
+	
+	<option value="//api/name/bodySerializer">&nbsp;&nbsp;&nbsp;&nbsp;bodySerializer</option>
+	
+	<option value="//api/name/responseValidator">&nbsp;&nbsp;&nbsp;&nbsp;responseValidator</option>
+	
+	
+	
+	
+	<option value="class_methods">Class Methods</option>
+	
+	<option value="//api/name/constructRequest:withUrl:withHeaders:withBody:">&nbsp;&nbsp;&nbsp;&nbsp;+ constructRequest:withUrl:withHeaders:withBody:</option>
+	
+	<option value="//api/name/isClientErrorStatusCode:">&nbsp;&nbsp;&nbsp;&nbsp;+ isClientErrorStatusCode:</option>
+	
+	<option value="//api/name/isInformationalStatusCode:">&nbsp;&nbsp;&nbsp;&nbsp;+ isInformationalStatusCode:</option>
+	
+	<option value="//api/name/isRedirectionStatusCode:">&nbsp;&nbsp;&nbsp;&nbsp;+ isRedirectionStatusCode:</option>
+	
+	<option value="//api/name/isServerErrorStatusCode:">&nbsp;&nbsp;&nbsp;&nbsp;+ isServerErrorStatusCode:</option>
+	
+	<option value="//api/name/isSuccessStatusCode:">&nbsp;&nbsp;&nbsp;&nbsp;+ isSuccessStatusCode:</option>
+	
+	<option value="//api/name/isValidResponse:withBody:error:">&nbsp;&nbsp;&nbsp;&nbsp;+ isValidResponse:withBody:error:</option>
+	
+	<option value="//api/name/jsonDataParser:error:">&nbsp;&nbsp;&nbsp;&nbsp;+ jsonDataParser:error:</option>
+	
+	<option value="//api/name/parseBody:withBody:error:">&nbsp;&nbsp;&nbsp;&nbsp;+ parseBody:withBody:error:</option>
+	
+	<option value="//api/name/serializeBody:error:">&nbsp;&nbsp;&nbsp;&nbsp;+ serializeBody:error:</option>
+	
+	<option value="//api/name/serializeJson:error:">&nbsp;&nbsp;&nbsp;&nbsp;+ serializeJson:error:</option>
+	
+	<option value="//api/name/serializeString:error:">&nbsp;&nbsp;&nbsp;&nbsp;+ serializeString:error:</option>
+	
+	<option value="//api/name/stringDataParser:error:">&nbsp;&nbsp;&nbsp;&nbsp;+ stringDataParser:error:</option>
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/deleteAsync:onSuccess:onError:">&nbsp;&nbsp;&nbsp;&nbsp;- deleteAsync:onSuccess:onError:</option>
+	
+	<option value="//api/name/deleteAsync:withHeaders:onSuccess:onError:">&nbsp;&nbsp;&nbsp;&nbsp;- deleteAsync:withHeaders:onSuccess:onError:</option>
+	
+	<option value="//api/name/getAsync:onSuccess:onError:">&nbsp;&nbsp;&nbsp;&nbsp;- getAsync:onSuccess:onError:</option>
+	
+	<option value="//api/name/getAsync:withHeaders:onSuccess:onError:">&nbsp;&nbsp;&nbsp;&nbsp;- getAsync:withHeaders:onSuccess:onError:</option>
+	
+	<option value="//api/name/init">&nbsp;&nbsp;&nbsp;&nbsp;- init</option>
+	
+	<option value="//api/name/initWithConfiguration:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithConfiguration:</option>
+	
+	<option value="//api/name/issueAsync:onSuccess:onError:">&nbsp;&nbsp;&nbsp;&nbsp;- issueAsync:onSuccess:onError:</option>
+	
+	<option value="//api/name/issueAsync:withBodyParser:withResponseValidation:onSuccess:onError:">&nbsp;&nbsp;&nbsp;&nbsp;- issueAsync:withBodyParser:withResponseValidation:onSuccess:onError:</option>
+	
+	<option value="//api/name/patchAsync:withBody:onSuccess:onError:">&nbsp;&nbsp;&nbsp;&nbsp;- patchAsync:withBody:onSuccess:onError:</option>
+	
+	<option value="//api/name/patchAsync:withHeaders:withBody:onSuccess:onError:">&nbsp;&nbsp;&nbsp;&nbsp;- patchAsync:withHeaders:withBody:onSuccess:onError:</option>
+	
+	<option value="//api/name/patchAsync:withHeaders:withJson:onSuccess:onError:">&nbsp;&nbsp;&nbsp;&nbsp;- patchAsync:withHeaders:withJson:onSuccess:onError:</option>
+	
+	<option value="//api/name/patchAsync:withHeaders:withString:onSuccess:onError:">&nbsp;&nbsp;&nbsp;&nbsp;- patchAsync:withHeaders:withString:onSuccess:onError:</option>
+	
+	<option value="//api/name/patchAsync:withJson:onSuccess:onError:">&nbsp;&nbsp;&nbsp;&nbsp;- patchAsync:withJson:onSuccess:onError:</option>
+	
+	<option value="//api/name/patchAsync:withString:onSuccess:onError:">&nbsp;&nbsp;&nbsp;&nbsp;- patchAsync:withString:onSuccess:onError:</option>
+	
+	<option value="//api/name/postAsync:withBody:onSuccess:onError:">&nbsp;&nbsp;&nbsp;&nbsp;- postAsync:withBody:onSuccess:onError:</option>
+	
+	<option value="//api/name/postAsync:withHeaders:withBody:onSuccess:onError:">&nbsp;&nbsp;&nbsp;&nbsp;- postAsync:withHeaders:withBody:onSuccess:onError:</option>
+	
+	<option value="//api/name/postAsync:withHeaders:withJson:onSuccess:onError:">&nbsp;&nbsp;&nbsp;&nbsp;- postAsync:withHeaders:withJson:onSuccess:onError:</option>
+	
+	<option value="//api/name/postAsync:withHeaders:withString:onSuccess:onError:">&nbsp;&nbsp;&nbsp;&nbsp;- postAsync:withHeaders:withString:onSuccess:onError:</option>
+	
+	<option value="//api/name/postAsync:withJson:onSuccess:onError:">&nbsp;&nbsp;&nbsp;&nbsp;- postAsync:withJson:onSuccess:onError:</option>
+	
+	<option value="//api/name/postAsync:withString:onSuccess:onError:">&nbsp;&nbsp;&nbsp;&nbsp;- postAsync:withString:onSuccess:onError:</option>
+	
+	<option value="//api/name/putAsync:withBody:onSuccess:onError:">&nbsp;&nbsp;&nbsp;&nbsp;- putAsync:withBody:onSuccess:onError:</option>
+	
+	<option value="//api/name/putAsync:withHeaders:withBody:onSuccess:onError:">&nbsp;&nbsp;&nbsp;&nbsp;- putAsync:withHeaders:withBody:onSuccess:onError:</option>
+	
+	<option value="//api/name/putAsync:withHeaders:withJson:onSuccess:onError:">&nbsp;&nbsp;&nbsp;&nbsp;- putAsync:withHeaders:withJson:onSuccess:onError:</option>
+	
+	<option value="//api/name/putAsync:withHeaders:withString:onSuccess:onError:">&nbsp;&nbsp;&nbsp;&nbsp;- putAsync:withHeaders:withString:onSuccess:onError:</option>
+	
+	<option value="//api/name/putAsync:withJson:onSuccess:onError:">&nbsp;&nbsp;&nbsp;&nbsp;- putAsync:withJson:onSuccess:onError:</option>
+	
+	<option value="//api/name/putAsync:withString:onSuccess:onError:">&nbsp;&nbsp;&nbsp;&nbsp;- putAsync:withString:onSuccess:onError:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/bodyParser">bodyParser</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/bodySerializer">bodySerializer</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/responseValidator">responseValidator</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/constructRequest:withUrl:withHeaders:withBody:">constructRequest:withUrl:withHeaders:withBody:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/isClientErrorStatusCode:">isClientErrorStatusCode:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/isInformationalStatusCode:">isInformationalStatusCode:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/isRedirectionStatusCode:">isRedirectionStatusCode:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/isServerErrorStatusCode:">isServerErrorStatusCode:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/isSuccessStatusCode:">isSuccessStatusCode:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/isValidResponse:withBody:error:">isValidResponse:withBody:error:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/jsonDataParser:error:">jsonDataParser:error:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/parseBody:withBody:error:">parseBody:withBody:error:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/serializeBody:error:">serializeBody:error:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/serializeJson:error:">serializeJson:error:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/serializeString:error:">serializeString:error:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/stringDataParser:error:">stringDataParser:error:</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deleteAsync:onSuccess:onError:">deleteAsync:onSuccess:onError:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deleteAsync:withHeaders:onSuccess:onError:">deleteAsync:withHeaders:onSuccess:onError:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getAsync:onSuccess:onError:">getAsync:onSuccess:onError:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getAsync:withHeaders:onSuccess:onError:">getAsync:withHeaders:onSuccess:onError:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/init">init</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithConfiguration:">initWithConfiguration:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/issueAsync:onSuccess:onError:">issueAsync:onSuccess:onError:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/issueAsync:withBodyParser:withResponseValidation:onSuccess:onError:">issueAsync:withBodyParser:withResponseValidation:onSuccess:onError:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/patchAsync:withBody:onSuccess:onError:">patchAsync:withBody:onSuccess:onError:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/patchAsync:withHeaders:withBody:onSuccess:onError:">patchAsync:withHeaders:withBody:onSuccess:onError:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/patchAsync:withHeaders:withJson:onSuccess:onError:">patchAsync:withHeaders:withJson:onSuccess:onError:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/patchAsync:withHeaders:withString:onSuccess:onError:">patchAsync:withHeaders:withString:onSuccess:onError:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/patchAsync:withJson:onSuccess:onError:">patchAsync:withJson:onSuccess:onError:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/patchAsync:withString:onSuccess:onError:">patchAsync:withString:onSuccess:onError:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/postAsync:withBody:onSuccess:onError:">postAsync:withBody:onSuccess:onError:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/postAsync:withHeaders:withBody:onSuccess:onError:">postAsync:withHeaders:withBody:onSuccess:onError:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/postAsync:withHeaders:withJson:onSuccess:onError:">postAsync:withHeaders:withJson:onSuccess:onError:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/postAsync:withHeaders:withString:onSuccess:onError:">postAsync:withHeaders:withString:onSuccess:onError:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/postAsync:withJson:onSuccess:onError:">postAsync:withJson:onSuccess:onError:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/postAsync:withString:onSuccess:onError:">postAsync:withString:onSuccess:onError:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/putAsync:withBody:onSuccess:onError:">putAsync:withBody:onSuccess:onError:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/putAsync:withHeaders:withBody:onSuccess:onError:">putAsync:withHeaders:withBody:onSuccess:onError:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/putAsync:withHeaders:withJson:onSuccess:onError:">putAsync:withHeaders:withJson:onSuccess:onError:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/putAsync:withHeaders:withString:onSuccess:onError:">putAsync:withHeaders:withString:onSuccess:onError:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/putAsync:withJson:onSuccess:onError:">putAsync:withJson:onSuccess:onError:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/putAsync:withString:onSuccess:onError:">putAsync:withString:onSuccess:onError:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="http_request Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">http_request Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">http_request.h</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>http_request is an iOS light-weight library that simplifies asynchronous HTTP operations.</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/bodyParser">&nbsp;&nbsp;bodyParser</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/bodySerializer">&nbsp;&nbsp;bodySerializer</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/responseValidator">&nbsp;&nbsp;responseValidator</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/isInformationalStatusCode:">+&nbsp;isInformationalStatusCode:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/isSuccessStatusCode:">+&nbsp;isSuccessStatusCode:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/isRedirectionStatusCode:">+&nbsp;isRedirectionStatusCode:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/isClientErrorStatusCode:">+&nbsp;isClientErrorStatusCode:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/isServerErrorStatusCode:">+&nbsp;isServerErrorStatusCode:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/constructRequest:withUrl:withHeaders:withBody:">+&nbsp;constructRequest:withUrl:withHeaders:withBody:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/isValidResponse:withBody:error:">+&nbsp;isValidResponse:withBody:error:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/parseBody:withBody:error:">+&nbsp;parseBody:withBody:error:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/serializeBody:error:">+&nbsp;serializeBody:error:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/jsonDataParser:error:">+&nbsp;jsonDataParser:error:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/stringDataParser:error:">+&nbsp;stringDataParser:error:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/serializeString:error:">+&nbsp;serializeString:error:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/serializeJson:error:">+&nbsp;serializeJson:error:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/init">&ndash;&nbsp;init</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithConfiguration:">&ndash;&nbsp;initWithConfiguration:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getAsync:onSuccess:onError:">&ndash;&nbsp;getAsync:onSuccess:onError:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getAsync:withHeaders:onSuccess:onError:">&ndash;&nbsp;getAsync:withHeaders:onSuccess:onError:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/putAsync:withBody:onSuccess:onError:">&ndash;&nbsp;putAsync:withBody:onSuccess:onError:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/putAsync:withString:onSuccess:onError:">&ndash;&nbsp;putAsync:withString:onSuccess:onError:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/putAsync:withJson:onSuccess:onError:">&ndash;&nbsp;putAsync:withJson:onSuccess:onError:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/putAsync:withHeaders:withBody:onSuccess:onError:">&ndash;&nbsp;putAsync:withHeaders:withBody:onSuccess:onError:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/putAsync:withHeaders:withString:onSuccess:onError:">&ndash;&nbsp;putAsync:withHeaders:withString:onSuccess:onError:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/putAsync:withHeaders:withJson:onSuccess:onError:">&ndash;&nbsp;putAsync:withHeaders:withJson:onSuccess:onError:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/postAsync:withBody:onSuccess:onError:">&ndash;&nbsp;postAsync:withBody:onSuccess:onError:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/postAsync:withString:onSuccess:onError:">&ndash;&nbsp;postAsync:withString:onSuccess:onError:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/postAsync:withJson:onSuccess:onError:">&ndash;&nbsp;postAsync:withJson:onSuccess:onError:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/postAsync:withHeaders:withBody:onSuccess:onError:">&ndash;&nbsp;postAsync:withHeaders:withBody:onSuccess:onError:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/postAsync:withHeaders:withString:onSuccess:onError:">&ndash;&nbsp;postAsync:withHeaders:withString:onSuccess:onError:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/postAsync:withHeaders:withJson:onSuccess:onError:">&ndash;&nbsp;postAsync:withHeaders:withJson:onSuccess:onError:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/patchAsync:withBody:onSuccess:onError:">&ndash;&nbsp;patchAsync:withBody:onSuccess:onError:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/patchAsync:withString:onSuccess:onError:">&ndash;&nbsp;patchAsync:withString:onSuccess:onError:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/patchAsync:withJson:onSuccess:onError:">&ndash;&nbsp;patchAsync:withJson:onSuccess:onError:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/patchAsync:withHeaders:withBody:onSuccess:onError:">&ndash;&nbsp;patchAsync:withHeaders:withBody:onSuccess:onError:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/patchAsync:withHeaders:withString:onSuccess:onError:">&ndash;&nbsp;patchAsync:withHeaders:withString:onSuccess:onError:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/patchAsync:withHeaders:withJson:onSuccess:onError:">&ndash;&nbsp;patchAsync:withHeaders:withJson:onSuccess:onError:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/deleteAsync:onSuccess:onError:">&ndash;&nbsp;deleteAsync:onSuccess:onError:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/deleteAsync:withHeaders:onSuccess:onError:">&ndash;&nbsp;deleteAsync:withHeaders:onSuccess:onError:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/issueAsync:onSuccess:onError:">&ndash;&nbsp;issueAsync:onSuccess:onError:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/issueAsync:withBodyParser:withResponseValidation:onSuccess:onError:">&ndash;&nbsp;issueAsync:withBodyParser:withResponseValidation:onSuccess:onError:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/bodyParser" title="bodyParser"></a>
+	<h3 class="subsubtitle method-title">bodyParser</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The body parser block property.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (copy) id ( ^ ) ( NSURLResponse *, NSData *, NSError *__autoreleasing *) bodyParser</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">http_request.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/bodySerializer" title="bodySerializer"></a>
+	<h3 class="subsubtitle method-title">bodySerializer</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The body serializer block property.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (copy) NSData *^ ) ( id , NSError *__autoreleasing *) bodySerializer</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">http_request.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/responseValidator" title="responseValidator"></a>
+	<h3 class="subsubtitle method-title">responseValidator</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The response validator block property.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (copy) BOOL ( ^ ) ( NSURLResponse *, id body , NSError *__autoreleasing *) responseValidator</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">http_request.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Class Methods" name="class_methods"></a>
+						<h2 class="subtitle subtitle-methods">Class Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/constructRequest:withUrl:withHeaders:withBody:" title="constructRequest:withUrl:withHeaders:withBody:"></a>
+	<h3 class="subsubtitle method-title">constructRequest:withUrl:withHeaders:withBody:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Constructs an HTTP request given the provided parameters.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (NSMutableURLRequest *)constructRequest:(NSString *)<em>method</em> withUrl:(NSURL *)<em>url</em> withHeaders:(NSDictionary *)<em>headers</em> withBody:(NSData *)<em>data</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>method</em></dt>
+			<dd><p>The HTTP method (e.g. @&ldquo;GET&rdquo;, @&ldquo;PUT&rdquo;, @&ldquo;POST, @"PATCH&rdquo;, @&ldquo;DELETE&rdquo;, &hellip;). Must not be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>url</em></dt>
+			<dd><p>The uniform resource locator to retrieve the content from. Must not be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>headers</em></dt>
+			<dd><p>The HTTP headers to provide as part of the request. Optional, can be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>data</em></dt>
+			<dd><p>The data to use in the body of the request. Optional, can be nil.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The constructed HTTP request.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">http_request.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/isClientErrorStatusCode:" title="isClientErrorStatusCode:"></a>
+	<h3 class="subsubtitle method-title">isClientErrorStatusCode:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Determines whether or not the status code is a client error.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (BOOL)isClientErrorStatusCode:(int)<em>statusCode</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>statusCode</em></dt>
+			<dd><p>The HTTP status code.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>YES if it is a client error; otherwise, NO.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">http_request.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/isInformationalStatusCode:" title="isInformationalStatusCode:"></a>
+	<h3 class="subsubtitle method-title">isInformationalStatusCode:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Determines whether or not the status code is informational.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (BOOL)isInformationalStatusCode:(int)<em>statusCode</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>statusCode</em></dt>
+			<dd><p>The HTTP status code.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>YES if it is informational; otherwise, NO.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">http_request.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/isRedirectionStatusCode:" title="isRedirectionStatusCode:"></a>
+	<h3 class="subsubtitle method-title">isRedirectionStatusCode:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Determines whether or not the status code is redirection.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (BOOL)isRedirectionStatusCode:(int)<em>statusCode</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>statusCode</em></dt>
+			<dd><p>The HTTP status code.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>YES if it is redirection; otherwise, NO.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">http_request.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/isServerErrorStatusCode:" title="isServerErrorStatusCode:"></a>
+	<h3 class="subsubtitle method-title">isServerErrorStatusCode:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Determines whether or not the status code is a server error.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (BOOL)isServerErrorStatusCode:(int)<em>statusCode</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>statusCode</em></dt>
+			<dd><p>The HTTP status code.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>YES if it is a server error; otherwise, NO.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">http_request.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/isSuccessStatusCode:" title="isSuccessStatusCode:"></a>
+	<h3 class="subsubtitle method-title">isSuccessStatusCode:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Determines whether or not the status code is successful.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (BOOL)isSuccessStatusCode:(int)<em>statusCode</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>statusCode</em></dt>
+			<dd><p>The HTTP status code.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>YES if it is successful; otherwise, NO.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">http_request.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/isValidResponse:withBody:error:" title="isValidResponse:withBody:error:"></a>
+	<h3 class="subsubtitle method-title">isValidResponse:withBody:error:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Validates the HTTP response of a request.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (BOOL)isValidResponse:(NSURLResponse *)<em>response</em> withBody:(id)<em>body</em> error:(NSError *__autoreleasing *)<em>error</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>response</em></dt>
+			<dd><p>The response to validate. Must not be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>body</em></dt>
+			<dd><p>The response body. Optional, can be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>error</em></dt>
+			<dd><p>The error, if any. Must not be nil.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>Determines whether there was a reponse error or not.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">http_request.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/jsonDataParser:error:" title="jsonDataParser:error:"></a>
+	<h3 class="subsubtitle method-title">jsonDataParser:error:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Converts the provided NSData into its JSON representation.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (id)jsonDataParser:(NSData *)<em>data</em> error:(NSError *__autoreleasing *)<em>error</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>data</em></dt>
+			<dd><p>The data to parse. Optional, can be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>error</em></dt>
+			<dd><p>The error, if any. Must not be nil.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The NSDictionary representing the parsed data.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">http_request.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/parseBody:withBody:error:" title="parseBody:withBody:error:"></a>
+	<h3 class="subsubtitle method-title">parseBody:withBody:error:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Parses the data given a response.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (id)parseBody:(NSURLResponse *)<em>response</em> withBody:(NSData *)<em>data</em> error:(NSError *__autoreleasing *)<em>error</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>response</em></dt>
+			<dd><p>The response. Must not be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>data</em></dt>
+			<dd><p>The data to parse as the body. Optional, can be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>error</em></dt>
+			<dd><p>The error, if any. Must not be nil.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The parsed body in its corresponding representation.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">http_request.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/serializeBody:error:" title="serializeBody:error:"></a>
+	<h3 class="subsubtitle method-title">serializeBody:error:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Serializes the body for a request.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (NSData *)serializeBody:(id)<em>body</em> error:(NSError *__autoreleasing *)<em>error</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>body</em></dt>
+			<dd><p>The data to serialize as the body. Optional, can be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>error</em></dt>
+			<dd><p>The error, if any. Must not be nil.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The serialized body in its corresponding representation.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">http_request.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/serializeJson:error:" title="serializeJson:error:"></a>
+	<h3 class="subsubtitle method-title">serializeJson:error:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Converts the provided JSON into its NSData representation.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (NSData *)serializeJson:(NSDictionary *)<em>dict</em> error:(NSError *__autoreleasing *)<em>error</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>dict</em></dt>
+			<dd><p>The JSON to serialize. Optional, can be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>error</em></dt>
+			<dd><p>The error, if any. Must not be nil.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The NSData representing the serialized JSON.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">http_request.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/serializeString:error:" title="serializeString:error:"></a>
+	<h3 class="subsubtitle method-title">serializeString:error:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Converts the provided String into its NSData representation.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (NSData *)serializeString:(NSString *)<em>str</em> error:(NSError *__autoreleasing *)<em>error</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>str</em></dt>
+			<dd><p>The String to serialize. Optional, can be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>error</em></dt>
+			<dd><p>The error, if any. Must not be nil.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The NSData representing the serialized String.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">http_request.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/stringDataParser:error:" title="stringDataParser:error:"></a>
+	<h3 class="subsubtitle method-title">stringDataParser:error:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Converts the provided NSData into its String representation.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (id)stringDataParser:(NSData *)<em>data</em> error:(NSError *__autoreleasing *)<em>error</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>data</em></dt>
+			<dd><p>The data to parse. Optional, can be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>error</em></dt>
+			<dd><p>The error, if any. Must not be nil.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The NSString representing the parsed data.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">http_request.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/deleteAsync:onSuccess:onError:" title="deleteAsync:onSuccess:onError:"></a>
+	<h3 class="subsubtitle method-title">deleteAsync:onSuccess:onError:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Removes the content for the provided url.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSURLSessionDataTask *)deleteAsync:(NSURL *)<em>url</em> onSuccess:(void ( ^ ) ( NSURLResponse *, id ))<em>success</em> onError:(void ( ^ ) ( NSError *))<em>error</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>url</em></dt>
+			<dd><p>The uniform resource locator to retrieve the content from. Must not be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>success</em></dt>
+			<dd><p>The callback called upon success; passes the response and the body. Must not be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>error</em></dt>
+			<dd><p>The callback called upon error; passes an NSError. Must not be nil.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The task representing the operation.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">http_request.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/deleteAsync:withHeaders:onSuccess:onError:" title="deleteAsync:withHeaders:onSuccess:onError:"></a>
+	<h3 class="subsubtitle method-title">deleteAsync:withHeaders:onSuccess:onError:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Removes the content for the provided url.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSURLSessionDataTask *)deleteAsync:(NSURL *)<em>url</em> withHeaders:(NSDictionary *)<em>headers</em> onSuccess:(void ( ^ ) ( NSURLResponse *, id ))<em>success</em> onError:(void ( ^ ) ( NSError *))<em>error</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>url</em></dt>
+			<dd><p>The uniform resource locator to retrieve the content from. Must not be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>headers</em></dt>
+			<dd><p>The HTTP headers to provide as part of the request. Optional, can be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>success</em></dt>
+			<dd><p>The callback called upon success; passes the response and the body. Must not be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>error</em></dt>
+			<dd><p>The callback called upon error; passes an NSError. Must not be nil.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The task representing the operation.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">http_request.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/getAsync:onSuccess:onError:" title="getAsync:onSuccess:onError:"></a>
+	<h3 class="subsubtitle method-title">getAsync:onSuccess:onError:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Get the content for the provided url.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSURLSessionDataTask *)getAsync:(NSURL *)<em>url</em> onSuccess:(void ( ^ ) ( NSURLResponse *, id ))<em>success</em> onError:(void ( ^ ) ( NSError *))<em>error</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>url</em></dt>
+			<dd><p>The uniform resource locator to retrieve the content from. Must not be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>success</em></dt>
+			<dd><p>The callback called upon success; passes the response and the body. Must not be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>error</em></dt>
+			<dd><p>The callback called upon error; passes an NSError. Must not be nil.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The task representing the operation.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">http_request.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/getAsync:withHeaders:onSuccess:onError:" title="getAsync:withHeaders:onSuccess:onError:"></a>
+	<h3 class="subsubtitle method-title">getAsync:withHeaders:onSuccess:onError:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Get the content for the provided url.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSURLSessionDataTask *)getAsync:(NSURL *)<em>url</em> withHeaders:(NSDictionary *)<em>headers</em> onSuccess:(void ( ^ ) ( NSURLResponse *, id ))<em>success</em> onError:(void ( ^ ) ( NSError *))<em>error</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>url</em></dt>
+			<dd><p>The uniform resource locator to retrieve the content from. Must not be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>headers</em></dt>
+			<dd><p>The HTTP headers to provide as part of the request. Optional, can be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>success</em></dt>
+			<dd><p>The callback called upon success; passes the response and the body. Must not be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>error</em></dt>
+			<dd><p>The callback called upon error; passes an NSError. Must not be nil.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The task representing the operation.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">http_request.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/init" title="init"></a>
+	<h3 class="subsubtitle method-title">init</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The default instance initializer.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (id)init</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of class.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">http_request.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithConfiguration:" title="initWithConfiguration:"></a>
+	<h3 class="subsubtitle method-title">initWithConfiguration:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Initializes the instance with a provided configuration.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (id)initWithConfiguration:(NSURLSessionConfiguration *)<em>sessionConfiguration</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>sessionConfiguration</em></dt>
+			<dd><p>The session configuration used to initialize the instance.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of class.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">http_request.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/issueAsync:onSuccess:onError:" title="issueAsync:onSuccess:onError:"></a>
+	<h3 class="subsubtitle method-title">issueAsync:onSuccess:onError:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Issues an HTTP request, parses the response body and validates the status code.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSURLSessionDataTask *)issueAsync:(NSMutableURLRequest *)<em>request</em> onSuccess:(void ( ^ ) ( NSURLResponse *, id ))<em>success</em> onError:(void ( ^ ) ( NSError *))<em>error</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>The HTTP request to issue. Must not be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>success</em></dt>
+			<dd><p>The callback called upon success; passes the response and the body. Must not be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>error</em></dt>
+			<dd><p>The callback called upon error; passes an NSError. Must not be nil.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The task representing the operation.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">http_request.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/issueAsync:withBodyParser:withResponseValidation:onSuccess:onError:" title="issueAsync:withBodyParser:withResponseValidation:onSuccess:onError:"></a>
+	<h3 class="subsubtitle method-title">issueAsync:withBodyParser:withResponseValidation:onSuccess:onError:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Issues an HTTP request, parses the response body and validates the status code.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSURLSessionDataTask *)issueAsync:(NSMutableURLRequest *)<em>request</em> withBodyParser:(id ( ^ ) ( NSURLResponse *, NSData *, NSError *__autoreleasing *))<em>bodyParser</em> withResponseValidation:(BOOL ( ^ ) ( NSURLResponse *, id , NSError *__autoreleasing *))<em>validateResponse</em> onSuccess:(void ( ^ ) ( NSURLResponse *, id ))<em>successCallback</em> onError:(void ( ^ ) ( NSError *))<em>errorCallback</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>The HTTP request to issue. Must not be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>bodyParser</em></dt>
+			<dd><p>The parser used to convert the body. Optional, can be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>validateResponse</em></dt>
+			<dd><p>The validator used to check the response. Optional, can be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>successCallback</em></dt>
+			<dd><p>The callback called upon success; passes the response and the body. Must not be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>errorCallback</em></dt>
+			<dd><p>The callback called upon error; passes an NSError. Must not be nil.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The task representing the operation.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">http_request.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/patchAsync:withBody:onSuccess:onError:" title="patchAsync:withBody:onSuccess:onError:"></a>
+	<h3 class="subsubtitle method-title">patchAsync:withBody:onSuccess:onError:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Patch the content for the provided url.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSURLSessionDataTask *)patchAsync:(NSURL *)<em>url</em> withBody:(NSData *)<em>data</em> onSuccess:(void ( ^ ) ( NSURLResponse *, id ))<em>success</em> onError:(void ( ^ ) ( NSError *))<em>error</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>url</em></dt>
+			<dd><p>The uniform resource locator to update the content with. Must not be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>data</em></dt>
+			<dd><p>The NSData to be used as the body of the request and with which to patch the url with. Optional, can be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>success</em></dt>
+			<dd><p>The callback called upon success; passes the response and the body. Must not be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>error</em></dt>
+			<dd><p>The callback called upon error; passes an NSError. Must not be nil.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The task representing the operation.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">http_request.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/patchAsync:withHeaders:withBody:onSuccess:onError:" title="patchAsync:withHeaders:withBody:onSuccess:onError:"></a>
+	<h3 class="subsubtitle method-title">patchAsync:withHeaders:withBody:onSuccess:onError:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Patch the content for the provided url.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSURLSessionDataTask *)patchAsync:(NSURL *)<em>url</em> withHeaders:(NSDictionary *)<em>headers</em> withBody:(NSData *)<em>data</em> onSuccess:(void ( ^ ) ( NSURLResponse *, id ))<em>success</em> onError:(void ( ^ ) ( NSError *))<em>error</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>url</em></dt>
+			<dd><p>The uniform resource locator to update the content with. Must not be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>headers</em></dt>
+			<dd><p>The NSDitionary representing the headers to set for the request. Optional, can be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>data</em></dt>
+			<dd><p>The NSData to be used as the body of the request and with which to patch the url with. Optional, can be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>success</em></dt>
+			<dd><p>The callback called upon success; passes the response and the body. Must not be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>error</em></dt>
+			<dd><p>The callback called upon error; passes an NSError. Must not be nil.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The task representing the operation.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">http_request.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/patchAsync:withHeaders:withJson:onSuccess:onError:" title="patchAsync:withHeaders:withJson:onSuccess:onError:"></a>
+	<h3 class="subsubtitle method-title">patchAsync:withHeaders:withJson:onSuccess:onError:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Patch the content for the provided url.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSURLSessionDataTask *)patchAsync:(NSURL *)<em>url</em> withHeaders:(NSDictionary *)<em>headers</em> withJson:(NSDictionary *)<em>dict</em> onSuccess:(void ( ^ ) ( NSURLResponse *, id ))<em>success</em> onError:(void ( ^ ) ( NSError *))<em>error</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>url</em></dt>
+			<dd><p>The uniform resource locator to update the content with. Must not be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>headers</em></dt>
+			<dd><p>The NSDitionary representing the headers to set for the request. Optional, can be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>dict</em></dt>
+			<dd><p>The NSDictionary to be used as the body of the request and with which to patch the url with. Optional, can be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>success</em></dt>
+			<dd><p>The callback called upon success; passes the response and the body. Must not be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>error</em></dt>
+			<dd><p>The callback called upon error; passes an NSError. Must not be nil.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The task representing the operation.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">http_request.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/patchAsync:withHeaders:withString:onSuccess:onError:" title="patchAsync:withHeaders:withString:onSuccess:onError:"></a>
+	<h3 class="subsubtitle method-title">patchAsync:withHeaders:withString:onSuccess:onError:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Patch the content for the provided url.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSURLSessionDataTask *)patchAsync:(NSURL *)<em>url</em> withHeaders:(NSDictionary *)<em>headers</em> withString:(NSString *)<em>str</em> onSuccess:(void ( ^ ) ( NSURLResponse *, id ))<em>success</em> onError:(void ( ^ ) ( NSError *))<em>error</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>url</em></dt>
+			<dd><p>The uniform resource locator to update the content with. Must not be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>headers</em></dt>
+			<dd><p>The NSDitionary representing the headers to set for the request. Optional, can be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>str</em></dt>
+			<dd><p>The NSString to be used as the body of the request and with which to patch the url with. Optional, can be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>success</em></dt>
+			<dd><p>The callback called upon success; passes the response and the body. Must not be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>error</em></dt>
+			<dd><p>The callback called upon error; passes an NSError. Must not be nil.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The task representing the operation.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">http_request.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/patchAsync:withJson:onSuccess:onError:" title="patchAsync:withJson:onSuccess:onError:"></a>
+	<h3 class="subsubtitle method-title">patchAsync:withJson:onSuccess:onError:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Patch the content for the provided url.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSURLSessionDataTask *)patchAsync:(NSURL *)<em>url</em> withJson:(NSDictionary *)<em>dict</em> onSuccess:(void ( ^ ) ( NSURLResponse *, id ))<em>success</em> onError:(void ( ^ ) ( NSError *))<em>error</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>url</em></dt>
+			<dd><p>The uniform resource locator to update the content with. Must not be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>dict</em></dt>
+			<dd><p>The NSDictionary to be used as the body of the request and with which to patch the url with. Optional, can be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>success</em></dt>
+			<dd><p>The callback called upon success; passes the response and the body. Must not be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>error</em></dt>
+			<dd><p>The callback called upon error; passes an NSError. Must not be nil.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The task representing the operation.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">http_request.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/patchAsync:withString:onSuccess:onError:" title="patchAsync:withString:onSuccess:onError:"></a>
+	<h3 class="subsubtitle method-title">patchAsync:withString:onSuccess:onError:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Patch the content for the provided url.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSURLSessionDataTask *)patchAsync:(NSURL *)<em>url</em> withString:(NSString *)<em>str</em> onSuccess:(void ( ^ ) ( NSURLResponse *, id ))<em>success</em> onError:(void ( ^ ) ( NSError *))<em>error</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>url</em></dt>
+			<dd><p>The uniform resource locator to update the content with. Must not be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>str</em></dt>
+			<dd><p>The NSString to be used as the body of the request and with which to patch the url with. Optional, can be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>success</em></dt>
+			<dd><p>The callback called upon success; passes the response and the body. Must not be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>error</em></dt>
+			<dd><p>The callback called upon error; passes an NSError. Must not be nil.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The task representing the operation.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">http_request.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/postAsync:withBody:onSuccess:onError:" title="postAsync:withBody:onSuccess:onError:"></a>
+	<h3 class="subsubtitle method-title">postAsync:withBody:onSuccess:onError:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Post the content for the provided url.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSURLSessionDataTask *)postAsync:(NSURL *)<em>url</em> withBody:(NSData *)<em>data</em> onSuccess:(void ( ^ ) ( NSURLResponse *, id ))<em>success</em> onError:(void ( ^ ) ( NSError *))<em>error</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>url</em></dt>
+			<dd><p>The uniform resource locator to update the content with. Must not be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>data</em></dt>
+			<dd><p>The NSData to be used as the body of the request and with which to post the url with. Optional, can be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>success</em></dt>
+			<dd><p>The callback called upon success; passes the response and the body. Must not be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>error</em></dt>
+			<dd><p>The callback called upon error; passes an NSError. Must not be nil.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The task representing the operation.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">http_request.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/postAsync:withHeaders:withBody:onSuccess:onError:" title="postAsync:withHeaders:withBody:onSuccess:onError:"></a>
+	<h3 class="subsubtitle method-title">postAsync:withHeaders:withBody:onSuccess:onError:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Post the content for the provided url.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSURLSessionDataTask *)postAsync:(NSURL *)<em>url</em> withHeaders:(NSDictionary *)<em>headers</em> withBody:(NSData *)<em>data</em> onSuccess:(void ( ^ ) ( NSURLResponse *, id ))<em>success</em> onError:(void ( ^ ) ( NSError *))<em>error</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>url</em></dt>
+			<dd><p>The uniform resource locator to update the content with. Must not be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>headers</em></dt>
+			<dd><p>The NSDitionary representing the headers to set for the request. Optional, can be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>data</em></dt>
+			<dd><p>The NSData to be used as the body of the request and with which to post the url with. Optional, can be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>success</em></dt>
+			<dd><p>The callback called upon success; passes the response and the body. Must not be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>error</em></dt>
+			<dd><p>The callback called upon error; passes an NSError. Must not be nil.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The task representing the operation.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">http_request.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/postAsync:withHeaders:withJson:onSuccess:onError:" title="postAsync:withHeaders:withJson:onSuccess:onError:"></a>
+	<h3 class="subsubtitle method-title">postAsync:withHeaders:withJson:onSuccess:onError:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Post the content for the provided url.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSURLSessionDataTask *)postAsync:(NSURL *)<em>url</em> withHeaders:(NSDictionary *)<em>headers</em> withJson:(NSDictionary *)<em>dict</em> onSuccess:(void ( ^ ) ( NSURLResponse *, id ))<em>success</em> onError:(void ( ^ ) ( NSError *))<em>error</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>url</em></dt>
+			<dd><p>The uniform resource locator to update the content with. Must not be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>headers</em></dt>
+			<dd><p>The NSDitionary representing the headers to set for the request. Optional, can be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>dict</em></dt>
+			<dd><p>The NSDictionary to be used as the body of the request and with which to post the url with. Optional, can be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>success</em></dt>
+			<dd><p>The callback called upon success; passes the response and the body. Must not be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>error</em></dt>
+			<dd><p>The callback called upon error; passes an NSError. Must not be nil.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The task representing the operation.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">http_request.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/postAsync:withHeaders:withString:onSuccess:onError:" title="postAsync:withHeaders:withString:onSuccess:onError:"></a>
+	<h3 class="subsubtitle method-title">postAsync:withHeaders:withString:onSuccess:onError:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Post the content for the provided url.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSURLSessionDataTask *)postAsync:(NSURL *)<em>url</em> withHeaders:(NSDictionary *)<em>headers</em> withString:(NSString *)<em>str</em> onSuccess:(void ( ^ ) ( NSURLResponse *, id ))<em>success</em> onError:(void ( ^ ) ( NSError *))<em>error</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>url</em></dt>
+			<dd><p>The uniform resource locator to update the content with. Must not be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>headers</em></dt>
+			<dd><p>The NSDitionary representing the headers to set for the request. Optional, can be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>str</em></dt>
+			<dd><p>The NSString to be used as the body of the request and with which to post the url with. Optional, can be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>success</em></dt>
+			<dd><p>The callback called upon success; passes the response and the body. Must not be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>error</em></dt>
+			<dd><p>The callback called upon error; passes an NSError. Must not be nil.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The task representing the operation.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">http_request.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/postAsync:withJson:onSuccess:onError:" title="postAsync:withJson:onSuccess:onError:"></a>
+	<h3 class="subsubtitle method-title">postAsync:withJson:onSuccess:onError:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Post the content for the provided url.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSURLSessionDataTask *)postAsync:(NSURL *)<em>url</em> withJson:(NSDictionary *)<em>dict</em> onSuccess:(void ( ^ ) ( NSURLResponse *, id ))<em>success</em> onError:(void ( ^ ) ( NSError *))<em>error</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>url</em></dt>
+			<dd><p>The uniform resource locator to update the content with. Must not be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>dict</em></dt>
+			<dd><p>The NSDictionary to be used as the body of the request and with which to post the url with. Optional, can be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>success</em></dt>
+			<dd><p>The callback called upon success; passes the response and the body. Must not be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>error</em></dt>
+			<dd><p>The callback called upon error; passes an NSError. Must not be nil.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The task representing the operation.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">http_request.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/postAsync:withString:onSuccess:onError:" title="postAsync:withString:onSuccess:onError:"></a>
+	<h3 class="subsubtitle method-title">postAsync:withString:onSuccess:onError:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Post the content for the provided url.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSURLSessionDataTask *)postAsync:(NSURL *)<em>url</em> withString:(NSString *)<em>str</em> onSuccess:(void ( ^ ) ( NSURLResponse *, id ))<em>success</em> onError:(void ( ^ ) ( NSError *))<em>error</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>url</em></dt>
+			<dd><p>The uniform resource locator to update the content with. Must not be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>str</em></dt>
+			<dd><p>The NSString to be used as the body of the request and with which to post the url with. Optional, can be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>success</em></dt>
+			<dd><p>The callback called upon success; passes the response and the body. Must not be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>error</em></dt>
+			<dd><p>The callback called upon error; passes an NSError. Must not be nil.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The task representing the operation.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">http_request.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/putAsync:withBody:onSuccess:onError:" title="putAsync:withBody:onSuccess:onError:"></a>
+	<h3 class="subsubtitle method-title">putAsync:withBody:onSuccess:onError:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Put the content for the provided url.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSURLSessionDataTask *)putAsync:(NSURL *)<em>url</em> withBody:(NSData *)<em>data</em> onSuccess:(void ( ^ ) ( NSURLResponse *, id ))<em>success</em> onError:(void ( ^ ) ( NSError *))<em>error</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>url</em></dt>
+			<dd><p>The uniform resource locator to update the content with. Must not be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>data</em></dt>
+			<dd><p>The NSData to be used as the body of the request and with which to put the url with. Optional, can be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>success</em></dt>
+			<dd><p>The callback called upon success; passes the response and the body. Must not be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>error</em></dt>
+			<dd><p>The callback called upon error; passes an NSError. Must not be nil.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The task representing the operation.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">http_request.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/putAsync:withHeaders:withBody:onSuccess:onError:" title="putAsync:withHeaders:withBody:onSuccess:onError:"></a>
+	<h3 class="subsubtitle method-title">putAsync:withHeaders:withBody:onSuccess:onError:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Put the content for the provided url.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSURLSessionDataTask *)putAsync:(NSURL *)<em>url</em> withHeaders:(NSDictionary *)<em>headers</em> withBody:(NSData *)<em>data</em> onSuccess:(void ( ^ ) ( NSURLResponse *, id ))<em>success</em> onError:(void ( ^ ) ( NSError *))<em>error</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>url</em></dt>
+			<dd><p>The uniform resource locator to update the content with. Must not be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>headers</em></dt>
+			<dd><p>The NSDitionary representing the headers to set for the request. Optional, can be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>data</em></dt>
+			<dd><p>The NSData to be used as the body of the request and with which to put the url with. Optional, can be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>success</em></dt>
+			<dd><p>The callback called upon success; passes the response and the body. Must not be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>error</em></dt>
+			<dd><p>The callback called upon error; passes an NSError. Must not be nil.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The task representing the operation.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">http_request.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/putAsync:withHeaders:withJson:onSuccess:onError:" title="putAsync:withHeaders:withJson:onSuccess:onError:"></a>
+	<h3 class="subsubtitle method-title">putAsync:withHeaders:withJson:onSuccess:onError:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Put the content for the provided url.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSURLSessionDataTask *)putAsync:(NSURL *)<em>url</em> withHeaders:(NSDictionary *)<em>headers</em> withJson:(NSDictionary *)<em>dict</em> onSuccess:(void ( ^ ) ( NSURLResponse *, id ))<em>success</em> onError:(void ( ^ ) ( NSError *))<em>error</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>url</em></dt>
+			<dd><p>The uniform resource locator to update the content with. Must not be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>headers</em></dt>
+			<dd><p>The NSDitionary representing the headers to set for the request. Optional, can be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>dict</em></dt>
+			<dd><p>The NSDictionary to be used as the body of the request and with which to put the url with. Optional, can be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>success</em></dt>
+			<dd><p>The callback called upon success; passes the response and the body. Must not be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>error</em></dt>
+			<dd><p>The callback called upon error; passes an NSError. Must not be nil.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The task representing the operation.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">http_request.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/putAsync:withHeaders:withString:onSuccess:onError:" title="putAsync:withHeaders:withString:onSuccess:onError:"></a>
+	<h3 class="subsubtitle method-title">putAsync:withHeaders:withString:onSuccess:onError:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Put the content for the provided url.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSURLSessionDataTask *)putAsync:(NSURL *)<em>url</em> withHeaders:(NSDictionary *)<em>headers</em> withString:(NSString *)<em>str</em> onSuccess:(void ( ^ ) ( NSURLResponse *, id ))<em>success</em> onError:(void ( ^ ) ( NSError *))<em>error</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>url</em></dt>
+			<dd><p>The uniform resource locator to update the content with. Must not be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>headers</em></dt>
+			<dd><p>The NSDitionary representing the headers to set for the request. Optional, can be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>str</em></dt>
+			<dd><p>The NSString to be used as the body of the request and with which to put the url with. Optional, can be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>success</em></dt>
+			<dd><p>The callback called upon success; passes the response and the body. Must not be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>error</em></dt>
+			<dd><p>The callback called upon error; passes an NSError. Must not be nil.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The task representing the operation.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">http_request.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/putAsync:withJson:onSuccess:onError:" title="putAsync:withJson:onSuccess:onError:"></a>
+	<h3 class="subsubtitle method-title">putAsync:withJson:onSuccess:onError:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Put the content for the provided url.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSURLSessionDataTask *)putAsync:(NSURL *)<em>url</em> withJson:(NSDictionary *)<em>dict</em> onSuccess:(void ( ^ ) ( NSURLResponse *, id ))<em>success</em> onError:(void ( ^ ) ( NSError *))<em>error</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>url</em></dt>
+			<dd><p>The uniform resource locator to update the content with. Must not be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>dict</em></dt>
+			<dd><p>The NSDictionary to be used as the body of the request and with which to put the url with. Optional, can be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>success</em></dt>
+			<dd><p>The callback called upon success; passes the response and the body. Must not be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>error</em></dt>
+			<dd><p>The callback called upon error; passes an NSError. Must not be nil.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The task representing the operation.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">http_request.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/putAsync:withString:onSuccess:onError:" title="putAsync:withString:onSuccess:onError:"></a>
+	<h3 class="subsubtitle method-title">putAsync:withString:onSuccess:onError:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Put the content for the provided url.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSURLSessionDataTask *)putAsync:(NSURL *)<em>url</em> withString:(NSString *)<em>str</em> onSuccess:(void ( ^ ) ( NSURLResponse *, id ))<em>success</em> onError:(void ( ^ ) ( NSError *))<em>error</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>url</em></dt>
+			<dd><p>The uniform resource locator to update the content with. Must not be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>str</em></dt>
+			<dd><p>The NSString to be used as the body of the request and with which to put the url with. Optional, can be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>success</em></dt>
+			<dd><p>The callback called upon success; passes the response and the body. Must not be nil.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>error</em></dt>
+			<dd><p>The callback called upon error; passes an NSError. Must not be nil.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The task representing the operation.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">http_request.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+                    
+                    
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2014 langholz.net. All rights reserved. (Last updated: 2014-06-08)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>
